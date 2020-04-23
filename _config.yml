@@ -1,1 +1,102 @@
-theme: jekyll-theme-slate
+# Site settings
+
+title: Kaidong Chen
+
+name: Kaidong Chen
+
+subtitle: Graduate Student
+
+email: chenjd17@mails.tsinghua.edu.cn
+
+description: >
+
+  Graduate Student from Tsinghua University
+
+baseurl: ""
+
+url: "https://Kaidong-THU.github.io/"
+
+github_username: Kaidong-THU
+
+disqus_baseurl: "https://Kaidong-THU.github.io/"
+
+disqus_shortname: https-Kaidong-THU-github-io
+
+permalink: :title
+
+google-site-verification: "EBNpnv4GiHJTmePgRajamxrYtJnc6WlqDyWUITDaSMo"
+
+
+
+# Build settings
+
+markdown: kramdown
+
+paginate: 5
+
+paginate_path: "/page:num/"
+
+inter_post_navigation: true
+
+
+
+defaults:
+
+  -
+
+    scope:
+
+      path: ""
+
+    values:
+
+      author: "Kaidong THU"
+
+
+
+
+
+
+
+# External gems
+
+gems:
+
+  - jekyll-paginate
+
+  - jemoji
+
+  - jekyll-seo-tag
+
+
+
+
+
+
+
+social:
+
+  - name: GitHub
+
+    icon: github
+
+    username: Kaidong-THU
+
+    url: https://github.com/Kaidong THU
+    desc: Fork me on GitHub
+
+    share: false
+
+
+
+  - name: LinkedIn
+
+    icon: linkedin
+
+    username: Kaidong Chen
+
+    url: https://linkedin.com/pesoto
+
+    desc: Connect with me on LinkedIn
+
+    share: true
